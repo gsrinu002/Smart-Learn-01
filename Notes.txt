@@ -1,0 +1,401 @@
+fullstack web development 
+----------------------------
+web applications categories 
+-----------------------------
+social media ( xyz ) 
+banking 
+hospitality 
+eduaction 
+personal 
+booking 
+shopping cart 
+food 
+drink 
+
+1.front end 
+2.back end 
+
+1.front end 
+----------------------UI (user interface) 
+what user can able to see.
+what user can able to interact with.
+
+front end technologies 
+------------------------
+1.HTML
+2.CSS
+3.Javascript 
+4.jQuery (js lib)
+5.Bootstrap (JS,CSS lib)
+6.Flexbox(CSS lib)
+7.tailwind css(CSS lib)
+7.ReactJS (JS lib)
+
+server side technologies 
+---------------------------
+1.PHP  + mysql , mongodb,firebase
+2.java  + oracle 
+3.dotnet + sqlserver 
+4.python (Django,Flask) + mysql, mongodb,firebase 
+5.Nodejs(javascript) + mysql, mongodb,firebase
+6.Ruby + mysql, mongodb,firebase
+7.Go lang(google)  + mysql, mongodb,firebase
+
+pre requiesites for develop web application 
+---------------------------------------------
+1.editor  : to write the and end comple or execute code 
+2.browser : to visualise output.
+
+editors 
+----------
+notepad 
+notepad++
+visualstudio code ..
+brackes 
+atom 
+sublime text 
+visualstudio 
+....
+
+browsers 
+-----------------
+firefox 
+google chrome ....
+microsoft edge 
+safari 
+opera 
+...
+
+note 
+------
+front end is commom for all back end techologies  
+
+HTML 
+-----------
+HTML using for design web page 
+HTML files are saved with .html format 
+
+HTML is Hyper text Markup lang 
+HTML is not programming lang 
+
+HTML is collection of tags 
+tags and types 
+---------------
+1.paired tags  : 
+---------------- it is a combination of open tag and close tag 
+<opentag> content  </closetag> 
+
+2.unpaired tags : it is unique tag 
+1.only open  :  <opentag>
+2.only close : </closetag> 
+3.self close : <selfclose/>  
+
+note :
+every tag have some pupose .
+html tags are predefined .
+
+html comments 
+----------------
+comments are using for commenting the code 
+commentts are useful for understand flow of the code 
+commentts are not executables 
+
+html comments 
+<!--  html code --> 
+
+select code , cntl+backslash  for commenting html and release comment 
+for html 
+
+headings 
+-------------
+h1
+h2
+h3
+... h6 
+
+
+heading are paired tags 
+headings are by defualt bold in style 
+h1 is bigger 
+h6 is smaller 
+
+center tag : make content align center of the screen 
+
+<center>   </center> 
+
+p tag : p tag using for create a paragraph 
+p is paired tag 
+<p>  frhkvdfkvdfkvfekuvdkvbfd   </p> 
+
+text formating tags 
+----------------------
+b tag : bold text 
+u tag : underline text 
+sub tag : subscripted text 
+sup tag : superscripted text 
+i tag : italic text 
+strong  : strong text 
+del tag : deleted text 
+pre tag : preserved format text 
+
+slvaibhavi.2002@gmail.com
+muntharajesh6@gmail.com
+
+tables 
+------------
+normal tale 
+<table>
+  <tr> <td> </td>  <tr>  
+
+</table>
+
+table with header 
+------------------------
+
+<table>
+  <thead>
+    <tr> <th> Sno</th> <th> Name</th>  <th>Salary</th> </tr>
+ </thead>
+
+  <tbody> 
+ <tr> <td>1.</td> <td>Santhosh </td>  <td> 23000 </td>    </tr> 
+ <tr> <td>2.</td> <td>Sreleka </td>  <td> 25000 </td>    </tr> 
+ <tr> <td>3.</td> <td>Sreekanth </td>  <td> 28000 </td>    </tr> 
+ <tr> <td>4.</td> <td>Sridhar </td>  <td> 22000 </td>    </tr> 
+
+   </tbody>
+</table>
+
+row span : 
+col span  : 
+
+images in html  
+--------------------
+img is the tag for show images 
+<img src=''/>   
+src is very imp and mandatory attribute for images 
+img is the self closed tag.
+
+images can be loading in 4 differebt ways 
+-------------------------------------------
+1.imgaes loding from same folder .
+  <img src='imgname.png'/> 
+
+2.images loading from images folder.
+<img src='images/imgname.png' /> 
+
+3.images and html files both are in diff diff folders .
+
+<img src='../images/imgname.png '/> 
+
+4.images loding from url. 
+<img src='url address' />  
+
+Assignaments
+---------------
+1. create a table with 20-25 emp names and make them categories. 
+2. create a html file which is same like CNN.com 
+images and description 
+  img 
+  hyperlink 
+  para (descripion) 
+
+3.crate  shop blog  with table 
+ fashion 
+ electronics 
+ kids 
+
+block level tags :
+--------------------
+A tag which is occupy full width of the page is called block level tag.
+
+div 
+
+inline tags:
+----------------
+A tag which will not occupy full width of the page is called inline tag.
+
+span 
+
+Attributes 
+--------------
+in html every element have some mandatory attrs and optional attrs.
+
+mandatory attrs : 
+
+img -> src 
+input -> type 
+a ->href 
+
+optioanl attrs :
+
+width 
+height 
+border 
+style 
+id 
+class 
+title 
+placeholder 
+value 
+name 
+...
+
+iframes 
+-----------
+inner frames 
+when i want to show another web page in my web page iframes needed 
+
+<iframe src='' width='' height='' > </iframe>
+
+quotes 
+--------
+1.blockquotes 
+2.short quotes 
+
+
+forms  : read data from user or take inputs from user ..
+forms are captured user inputs .
+forms have default validations from html 
+forms have cusotm validations from javascript.
+forms have custom events from javascript
+-----------
+1. pop up 
+2. sign in 
+3. sign up 
+4. registration 
+5. contact us 
+6. subscription 
+
+forms are creating with form tag 
+
+<form> 
+
+</form>
+
+forms have multiple kind of inputs .
+
+input have multiple types 
+
+type : text 
+       password 
+       radio 
+       checkbox 
+       submit 
+       date 
+       date-time 
+       color 
+       email 
+       number 
+       button 
+       reset 
+       ...
+
+forms have some imp attributes
+1,type 
+2,placeholder 
+3,value 
+4,name 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
